@@ -82,6 +82,10 @@
     left:71px;
 
 }
+iframe{
+    width:1519px;
+    height:822px;
+}
 
 .input-QR{
     display:inline-block;
@@ -377,8 +381,15 @@ border:0.25px solid #757575;
     padding:10px;
     color: #757575;
 } 
+.copyright a{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-image: url('../images/ghs.png');
+    background-color:#FFFF;
+}
 .copyright p{
-    width:570px;
+    width:600px;
     height:24px;
     font-size: 14px;
     margin-left:auto;
