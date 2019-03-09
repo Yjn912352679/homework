@@ -1,0 +1,122 @@
+.main{
+    width:810px;
+    height:140px;
+    position: relative;
+}
+
+.line{
+    display:inline-block;
+    width:1px;
+    height:90px;
+    background-color: #DDDDDD;
+    position: absolute;
+    left:360px;
+    top:50%;
+    margin-top:-45px;
+}
+
+.user{
+    width:810px;
+    height:140px;
+    position: relative;
+    background-color:#EDEDED
+}
+.user img{
+    position: absolute;
+    left:40px;
+    top:17px;
+}
+.user span{
+    display:inline-block;
+    position: absolute;
+    top:30px;
+    left:160px;
+}
+.integral{
+    
+    position: absolute;
+    top:60px;
+    left:160px;
+}
+.message{
+    position: absolute;
+    top:85px;
+    left:160px;
+}
+.weixin-out{
+    width:170px;
+    height:140px;
+
+}
+.weixin{
+    width:150px;
+    height:140px;
+    margin-top:0px;
+    margin-bottom:0px;
+    position: absolute;
+    left:390px;
+    top:0;
+}
+.weixin img{
+    position: absolute;
+    top:50%;
+    left:0px;
+    margin-top:-18px;
+}
+.weixin-binding{
+    margin-top:0px;
+    margin-bottom:0px;
+    position: absolute;
+    top:48px;
+    left:438px;
+}
+
+.weixin-bottom{
+    margin-top:0px;
+    margin-bottom:0px;
+    position: absolute;
+    bottom:48px;
+    left:438px;
+}
+
+.weixin-bottom>a{
+    text-decoration:none;
+    color:#1AC0C0;
+    margin-left:10px;
+}
+
+.phone-out{
+    width:170px;
+    height:140px;
+    position: relative;
+    position: absolute;
+    left:590px;
+    top:50%;
+    margin-top:-70px;
+}
+.phone-out img{
+    position: absolute;
+    top:50%;
+    left:0px;
+    margin-top:-18.5px;
+}
+.phone-binding{
+    display:inline-block;
+    margin-top:0px;
+    margin-bottom:0px;
+    position: absolute;
+    top:48px;
+    left:48px;
+}
+.phone-bottom{
+    margin-top:0px;
+    margin-bottom:0px;
+    position: absolute;
+    bottom:48px;
+    left:48px;
+}
+.phone-bottom>a{
+    text-decoration:none;
+    color:#1AC0C0;
+    margin-left:10px;
+}
