@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/小米商城.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1079534_v52s2l9r0wl.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="top-out">
+        <div class="top">
+            <a href="">小米商城</a><span>|</span>
+            <a href="">MIUI</a><span>|</span>
+            <a href="">lot</a><span>|</span>
+            <a href="">云服务</a><span>|</span>
+            <a href="">金融</a><span>|</span>
+            <a href="">有品</a><span>|</span>
+            <a href="">小爱开放平台</a><span>|</span>
+            <a href="">政企服务</a><span>|</span>
+            <a href="">资质证照</a><span>|</span>
+            <a href="">协议规则</a><span>|</span>
+            <a href="">下载app</a><span>|</span>
+            <a href="">Select Region</a>
+
+            <a class="log-in" href="">登录</a><span>|</span>
+            <a href="">注册</a><span>|</span>
+            <a href="">消息通知</a>
+            <a class="shopcar" href=""><i class="iconfont icon-gouwuche"></i>购物车(0)</a>
+        </div>
+    </div>
+
+    <div class="site-header">
+        <img src="../images/logo01.png" alt="">
+
+        <a class="xiaomi-phone" href="">小米手机</a>
+        <a class="middle" href="">红米</a>
+        <a class="middle" href="">电视</a>
+        <a class="middle" href="">笔记本</a>
+        <a class="middle" href="">家电</a>
+        <a class="middle" href="">新品</a>
+        <a class="middle" href="">路由器</a>
+        <a class="middle" href="">智能硬件</a>
+        <a class="middle" href="">服务</a>
+        <a class="community" href="">社区</a>
+        <input type="text" placeholder="搜索您需要的商品">
+        <i class="iconfont icon-sousuo"></i>
+        <a class="input-in-xiaomi9" href="">小米9</a>
+        <a class="input-in-xiaomi9-SE" href="">小米9 SE</a>
+
+    </div>
+
+    <div class="nav">
+        <div class="nav-left">
+            <dt>
+                <dl>
+                    <dd>手机 电话卡 <i class="iconfont icon-youjiantou"></i></dd>
+                    <dd>电视 盒子 <i class="iconfont icon-youjiantou"></i></dd>
+                    <dd>笔记本 平板 <i class="iconfont icon-youjiantou"></i></dd>
+                    <dd>家电 插线板 <i class="iconfont icon-youjiantou"></i></dd>
+                    <dd>出行 穿戴 <i class="iconfont icon-youjiantou"></i></dd>
+                    <dd>智能 路由器 <i class="iconfont icon-youjiantou"></i></dd>
+                    <dd>电源 配件 <i class="iconfont icon-youjiantou"></i></dd>
+                    <dd>健康 儿童 <i class="iconfont icon-youjiantou"></i></dd>
+                    <dd>耳机 音箱 <i class="iconfont icon-youjiantou"></i></dd>
+                    <dd>生活 箱包 <i class="iconfont icon-youjiantou"></i></dd>
+                </dl>
+            </dt>
+        </div>
+
+        <button class="last-one"></button>
+        <button class="next-one"></button>
+
+        <div class="round-selection">
+            <span class="first-span"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+
+    <div class="serve">
+            <table class="serve-left">
+                <thead></thead>
+                <tbody>
+
+                    <tr class="server-left-firstrow">
+                        <td> <a href="">
+                                <i class="iconfont icon-shouji"></i>
+                                <span>选购手机</span>
+                            </a></td>
+                        <td> <a href="">
+                                <i class="iconfont icon-liwuhuodong"></i>
+                                <span>企业团购</span>
+                            </a></td>
+                        <td><a href="">
+                                <i class="iconfont icon-F"></i>
+                                <span>F码通道</span>
+                            </a></td>
+
+                    </tr>
+
+                    <tr class="sever-left-secrow">
+                        <td> <a href="">
+                                <i class="iconfont icon-dianhuaqia"></i>
+                                <span>米粉卡</span>
+                            </a></td>
+                        <td> <a href="">
+                                <i class="iconfont icon-huishou"></i>
+                                <span>以旧换新</span>
+                            </a></td>
+                        <td> <a href="">
+                                <i class="iconfont icon-xinyongqia"></i>
+                                <span>话费充值</span>
+                            </a></td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+        <a class="xiaomi-8"><img src="../images/xmad_1550713536261_EJOpq.jpg" alt=""></a>
+        <a class="hongmi-6"><img src="../images/xmad_15510775494887_EWGcg.jpg" alt=""></a>
+        <a class="robot"><img src="../images/xmad_15513348763999_sTLBm.jpg" alt=""></a>
+
+    </div>
+
+    <div class="red-mi">
+        <a href=""><img src="../images/xmad_15517702903767_FLAbz.jpg" alt=""></a>
+    </div>
+
+    <script>
+        $(function () {
+            var index = 0;
+            backgrounds = [
+                "../images/xiaomi_1.jpg",
+                "../images/xiaomi_2.jpg",
+                "../images/xiaomi_3.jpg",
+                "../images/xiaomi_4.jpg",
+                "../images/xiaomi_5.jpg",
+            ]
+            $(".next-one").click(function () {
+                index++;
+                index = index % 5;
+
+                $(".nav").css("background", "url(" + backgrounds[index] + ")", "")
+                $(".round-selection>span").eq(index).addClass("first-span").siblings().removeClass("first-span")
+
+            })
+            $(".last-one").click(function () {
+                index--;
+                if (index < 0)
+                    index = 4;
+
+                $(".nav").css("background", "url(" + backgrounds[index] + ")", "")
+                $(".round-selection>span").eq(index).addClass("first-span").siblings().removeClass("first-span")
+
+            })
+        })
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

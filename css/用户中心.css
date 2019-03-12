@@ -29,7 +29,6 @@
         }
 
         .container a {
-            margin-right: 60px;
             text-decoration: none;
             font-size: 20px;
             color: #333;
@@ -66,6 +65,10 @@
 
         .end>.adm {
             text-align:center;
+            font-size:12px;
+        }
+        .adm:hover{
+            color:orange;
         }
 
         .start,
