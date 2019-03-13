@@ -137,23 +137,35 @@ body{
     width:40px;
     text-align: center;
     font-size:12px;
+    color:#333;
     background-color: #E0E0E0;
     position:absolute;
     right:132px;
     top:50%;
     margin-top:-6.4px;
+    cursor: pointer;
 }
 .site-header .input-in-xiaomi9-SE{
     display: inline-block;
     width:60px;
     text-align: center;
     font-size:12px;
+    color:#333;
     background-color: #E0E0E0;
     position:absolute;
     right:66px;
     top:50%;
     margin-top:-6.4px;
+    cursor: pointer;
 
+}
+.site-header .input-in-xiaomi9-SE:hover{
+    color:white;
+    background-color: orange;
+}
+.site-header .input-in-xiaomi9:hover{
+    color:white;
+    background-color: orange;
 }
 
 
