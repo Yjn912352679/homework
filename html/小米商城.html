@@ -526,6 +526,7 @@
             $(".next-one").click(function () {
                 index++;
                 index = index % 5;
+                console.log(index)
 
                 $(".nav").css("background", "url(" + backgrounds[index] + ")", "")
                 $(".round-selection>span").eq(index).addClass("first-span").siblings().removeClass("first-span")
@@ -538,6 +539,15 @@
 
                 $(".nav").css("background", "url(" + backgrounds[index] + ")", "")
                 $(".round-selection>span").eq(index).addClass("first-span").siblings().removeClass("first-span")
+
+            })
+
+            $(".round-selection>span").click(function(){
+                var currentIndex=$(this).index();
+                console.log(currentIndex)
+                $(".nav").css("background", "url(" + backgrounds[currentIndex] + ")", "")
+                $(".round-selection>span").eq(currentIndex).addClass("first-span").siblings().removeClass("first-span")
+                index=currentIndex
 
             })
 

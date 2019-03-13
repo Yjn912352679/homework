@@ -238,6 +238,7 @@ background-position-x:-123px;
     height:10px;
     border-radius: 50%;
     background-color:#5F5750;
+    cursor:pointer;
 }
 .round-selection .first-span{
     background-color:orange;
