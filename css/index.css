@@ -55,3 +55,22 @@ dd {
 dl:hover {
     color: pink;
 }
+.homework-nav {
+    position: absolute;
+    left:50px;
+    top:50px;
+}
+
+.homework-nav li{
+    width:120px;
+    line-height:40px;
+    text-align:center;
+    list-style:none;
+    border-radius: 20px;
+    border:1px solid #F36705;
+}
+
+.homework-nav li a{
+    color:#F36705;
+    text-decoration: none;
+}
