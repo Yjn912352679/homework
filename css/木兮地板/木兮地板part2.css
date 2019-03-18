@@ -1,0 +1,80 @@
+*{margin:0;padding:0}
+
+.nav-row{
+    margin-bottom:50px;
+}
+.main-part-sec{
+    width:100%;
+    display:none;
+    
+}
+
+.main-part-sec>.back-image{
+    width:100%;
+    margin-bottom:25px;
+}
+.main-part-sec>.back-image>img{
+    width:100%;
+
+}
+
+.main{
+    width:100%;
+    box-sizing: border-box;
+    padding-left:10%;
+    padding-right:10%;
+}
+
+.main>.about-muxi{
+    width:100%;
+    border-bottom:1px solid #2DAE36;
+    margin-bottom:30px;
+    text-align:center;
+
+}
+
+.main>.about-muxi>p{
+    font-size:20px;
+    width:120px;
+    line-height:42px;
+    margin:0px;
+    color:#F5FBF6;
+    background-color: #2DAE36;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    
+}
+
+
+.main>.map-produce-out{
+    width:100%;
+    overflow: hidden; 
+}
+
+
+
+.main>.map-produce-out #map{
+    width:100%;
+    height:400px;
+
+   
+}
+
+.map-produce-out>.map-produce>.produce-out{
+    width:100%;
+}
+
+
+.main .produce-out>div{
+    font-size:14px;
+    color:#474747;
+    line-height:24px;
+    margin-bottom:25px;
+   
+}
+
+.main .produce-out>div>span{
+    color:#53BD5B;
+}
+
+
