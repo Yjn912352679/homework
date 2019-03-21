@@ -1,4 +1,7 @@
 *{margin:0;padding:0}
+.navbar{
+    margin-bottom:0px;
+}
 
 .navbar-default{
     background-color: #FFFFFF;
@@ -18,9 +21,10 @@
 
 .navbar-nav{
     
-    position: absolute;
+    /* position: absolute;
     right:120px;
-    top:0px;
+    top:0px; */
+    float:right!important
 }
 .navbar-nav>li{
     height:79.6px;
@@ -83,6 +87,7 @@
     background-color:#2DAE36;
 }
 .main{
+    margin-top:50px;
     width:100%;
     padding-left:10%;
     padding-right:10%;

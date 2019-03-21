@@ -7,7 +7,7 @@
 h3 {
     height: 50px;
     color: white;
-    background-color: pink;
+    background-color: #5F5750;
     text-align: center;
     line-height: 50px;
 }
@@ -67,10 +67,10 @@ dl:hover {
     text-align:center;
     list-style:none;
     border-radius: 20px;
-    border:1px solid #F36705;
+    border:1px solid #5F5750;
 }
 
 .homework-nav li a{
-    color:#F36705;
+    color:#5F5750;
     text-decoration: none;
 }
